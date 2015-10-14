@@ -96,8 +96,12 @@ nav li {
 
 
 .sw-logo {
-    height: 25px;
-    max-width: 100%;
+    background-image: url("img/SW-logo-full-01.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-bottom: 1em;
+    margin-top: 3em;
 }
 
 .border-top {

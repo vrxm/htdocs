@@ -40,16 +40,21 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="<?php echo get_site_url(); ?>"><img class="sw-logo" src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" /></a> 
-		    </div>
-
+ 		    </div>
+            
+        <!-- responsive header image -->    
+        <div class="container-60 push sw-logo">
+        </div>
+            
+            
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="container-60 push">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			     <ul class="nav navbar-nav">
 					<?php wp_nav_menu ( array( 'theme_location' => 'header-menu', 'container' => '', 'items_wrap' => '%3$s' ) ); ?>
   				</ul>
   			</div>
-
+          </div>
 		    
 		  </div><!-- /.container-fluid -->
 		</nav>
