@@ -1,0 +1,121 @@
+body {
+  font-family: georgia, serif;
+}
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.featured {
+  background-color: rgba(0,0,0,0);
+}
+
+.article_subhead {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.crop-height {
+  /* max-width: 1200px; /* img src width (if known) */
+  height: 400px;
+  overflow: hidden; 
+  margin-top: -50px;
+}
+
+.crop-sub {
+  /* max-width: 1200px; /* img src width (if known) */
+  height: 150px;
+  overflow: hidden; 
+  margin-top: -50px;
+}
+
+.attachment-full {
+  /* corrects inline gap in enclosing div */
+  display: block;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9; /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; 
+}
+
+
+.the-title-feat {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: .67em 0 .1em 0;
+}
+
+.the-title-sub {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: .67em 0 .1em 0;
+}
+
+.jumbotron .author {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.author {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.space-after {
+  margin-bottom: 6em;
+}
+
+.navbar-custom {
+  font-family: "freight-macro-pro", 'Georgia';
+  color: black;
+  font-size: 1.25em;
+  border-top-width: 1em;
+  border-top-color: black;
+  margin: auto;
+}
+
+nav li {
+    font-size: 12pt;
+  color: black;
+  padding-top: 10px;
+}
+
+.container-60 {
+  width: 65%;
+  margin: auto;
+  border-top-width: thick;
+  border-top-color: black;
+}
+
+
+.sw-logo {
+    height: 25px;
+    max-width: 100%;
+}
+
+.border-top {
+    border-style: solid;
+    border-width: 6px;
+    border-top: thick single black;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.cat-butt {
+    border-bottom: 30px solid red;
+    margin-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 0;
+    width: 10%;
+    font-family: "freight-macro-pro", 'Georgia';
+    color: white;
+}
