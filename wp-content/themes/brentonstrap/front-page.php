@@ -16,29 +16,12 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
         
-
-          <!--Query the database and show 1 post from the featured category-->
-          <?php $custom_query = new
-          WP_Query('posts_per_page=1&category_name=featured');
-          while($custom_query->have_posts()) : $custom_query->the_post(); ?>
-          <!--before you start showing me a post, wrap it in a div with a bootstrap class-->
-            <div class="jumbotron featured" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-            <!--get the thumbnail; you created this with 'featured image'-->
-            <div class="crop-height"><?php the_post_thumbnail( 'full' ); ?></div>
-            <!--get the post title, wrap it in an h3 tag and make it a hyper link to the actual post-->
-            <div class="row">
-              <h1 class="the-title-feat"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-            </div>
-            
-            <!--get the author's name-->
-            <p class="author">by&nbsp;<?php the_author(); ?></p>
-            <!--get the excerpt-->
-            <?php the_excerpt(); ?>
-            <!--get the entire post instead of the excerpt, uncomment below-->
-            <?php /*?><?php the_content(); ?><?php */?>
-          </div>
-          <?php endwhile; ?>
-          <?php wp_reset_postdata(); // reset the query ?>
+        <!-- FA slider featured article -->
+        <?php
+        if( function_exists('fa_display_slider') ){
+            fa_display_slider( 87 );
+        }
+        ?>
      
 
         <div class="row border-top space-after">

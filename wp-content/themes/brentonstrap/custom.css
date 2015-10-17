@@ -136,3 +136,11 @@ nav li {
     border-top: 5px solid black;
 }
 
+
+.nivo-controlNav {
+  display: none;
+}
+
+.nivo-html-caption {
+  display: block;
+}
