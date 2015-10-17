@@ -104,6 +104,7 @@ nav li {
     margin-top: 3em;
 }
 
+/*
 .border-top {
     border-style: solid;
     border-width: 6px;
@@ -112,7 +113,9 @@ nav li {
     border-left: none;
     border-bottom: none;
 }
+*/
 
+/*
 .cat-butt {
     border-bottom: 30px solid red;
     margin-top: 0;
@@ -123,3 +126,13 @@ nav li {
     font-family: "freight-macro-pro", 'Georgia';
     color: white;
 }
+*/
+
+.cat-butt {
+    font-family: "freight-macro-pro", 'Georgia', serif;
+    margin: 5% 0;
+    font-weight: 700;
+    font-size: 5em;
+    border-top: 5px solid black;
+}
+
