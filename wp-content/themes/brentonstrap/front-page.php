@@ -16,7 +16,11 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
         
-  
+<?php
+if( function_exists('fa_display_slider') ){
+    fa_display_slider( 87 );
+}
+?>
 
       <div class="row">
         <div class="row">
