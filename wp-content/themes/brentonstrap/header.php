@@ -48,15 +48,16 @@
             
             
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="container-60 push">
+          <div class="container-80 push">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			     <ul class="nav navbar-nav">
 					<?php wp_nav_menu ( array( 'theme_location' => 'header-menu', 'container' => '', 'items_wrap' => '%3$s' ) ); ?>
   				</ul>
-                <ul class="nav navbar-nav navbar-right">              
+              
+                 <ul class="nav navbar-nav navbar-right">              
                 <li><form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-<div><input type="text" size="put_a_size_here" name="s" id="s" value="" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-<input type="submit" id="searchsubmit" value="Search" class="btn" />
+<div><input type="text" size="put_a_size_here" name="s" id="s" value="Search Seattle Weekly" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+<!-- this make a button <input type="submit" id="searchsubmit" value="Search" class="btn" /> -->
 </div>
 </form>
 </li>

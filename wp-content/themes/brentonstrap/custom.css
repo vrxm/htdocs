@@ -90,10 +90,14 @@ nav li {
 .container-60 {
   width: 65%;
   margin: auto;
-  border-top-width: thick;
-  border-top-color: black;
 }
 
+.container-80 {
+    width: 80%;
+    margin: auto;
+  /*  border-top: 6px solid black; 
+    margin-top: 2em; */
+}
 
 .sw-logo {
     background-image: url("img/SW-logo-full-01.svg");
@@ -141,6 +145,24 @@ nav li {
   display: none;
 }
 
-.nivo-html-caption {
-  display: block;
+input#s {
+    font-family: "Georgia",serif;
+    padding: 5%;
+    font-size: .75em;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+nav li {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
 }
